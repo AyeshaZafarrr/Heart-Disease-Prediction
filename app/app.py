@@ -26,9 +26,15 @@ restecg = st.number_input("Rest ECG")
 thalach = st.number_input("Max Heart Rate")
 exang = st.selectbox("Exercise Induced Angina", [0, 1])
 oldpeak = st.number_input("Oldpeak")
+slope = st.number_input("Slope")
+ca = st.number_input("Number of Major Vessels (ca)")
+thal = st.number_input("Thal")
 
-input_data = np.array([[age, sex, cp, trestbps, chol,
-                        fbs, restecg, thalach, exang, oldpeak]])
+input_data = np.array([[
+    age, sex, cp, trestbps, chol,
+    fbs, restecg, thalach, exang,
+    oldpeak, slope, ca, thal
+]])
 
 if st.button("Predict"):
     prediction = model.predict(input_data)
