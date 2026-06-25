@@ -10,8 +10,7 @@ Includes data analysis, model training, evaluation, and a Streamlit web app.
 ---
 
 ## 🚀 Live Demo
-*(Optional — add later if you deploy Streamlit)*  
-👉 https://your-streamlit-link.com
+https://heart-disease-prediction-kquqtnghveqm4la76wzwgq.streamlit.app/
 
 ---
 
