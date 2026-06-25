@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Machine Learning](https://img.shields.io/badge/ML-Sklearn-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Status](https://img.shields.io/badge/Status-Completed-green)
 # ❤️ Heart Disease Prediction using Machine Learning
 
 A machine learning project that predicts the risk of heart disease using patient health data.  
@@ -44,8 +48,8 @@ This project uses machine learning algorithms to predict whether a patient has h
 ---
 
 ## 📈 Model Performance
-- Logistic Regression Accuracy: XX%
-- Decision Tree Accuracy: XX%
+-Logistic Regression Accuracy: 0.7951219512195122
+Decision Tree Accuracy: 0.9853658536585366
 - Evaluation: ROC Curve, Confusion Matrix
 
 ---
@@ -62,6 +66,11 @@ Users can input patient data and get instant predictions.
 
 ### Confusion Matrix
 ![Confusion Matrix](outputs/confusion_matrix.png)
+
+## 📌 Key Insights
+- Chest pain type strongly influences heart disease prediction
+- Age and maximum heart rate are key indicators
+- Logistic Regression performed more stable than Decision Tree
 
 ### ROC Curve
 ![ROC Curve](outputs/roc_curve.png)
